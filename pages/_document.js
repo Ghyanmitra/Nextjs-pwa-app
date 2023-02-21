@@ -19,37 +19,44 @@ export default function Document() {
         <meta name="msapplication-config" content="/icons/browserconfig.xml" />
         <meta name="msapplication-TileColor" content="#2B5797" />
         <meta name="msapplication-tap-highlight" content="no" />
-        <meta name="theme-color" content="#000000" />
+        <meta name="theme-color" content="#d73b3b" />
 
-        <link rel="apple-touch-icon" href="/icons/touch-icon-iphone.png" />
+        {/* <link rel="apple-touch-icon" href="/icons/touch-icon-iphone.png" /> */}
         <link
           rel="apple-touch-icon"
-          sizes="152x152"
-          href="/icons/touch-icon-ipad.png"
-        />
-        <link
-          rel="apple-touch-icon"
-          sizes="180x180"
-          href="/icons/touch-icon-iphone-retina.png"
-        />
-        <link
-          rel="apple-touch-icon"
-          sizes="167x167"
-          href="/icons/touch-icon-ipad-retina.png"
+          sizes="48x48"
+          href="/icons/android/android-launchericon-48-48.png"
         />
 
         <link
-          rel="icon"
-          type="image/png"
-          sizes="32x32"
-          href="/icons/favicon-32x32.png"
+          rel="apple-touch-icon"
+          sizes="72x72"
+          href="/icons/android/android-launchericon-72-72.png"
+        />
+
+        <link
+          rel="apple-touch-icon"
+          sizes="96x96"
+          href="/icons/android/android-launchericon-96-96.png"
+        />
+
+        <link
+          rel="apple-touch-icon"
+          sizes="144x144"
+          href="/icons/android/android-launchericon-144-144.png"
+        />
+
+        <link
+          rel="apple-touch-icon"
+          sizes="192x192"
+          href="/icons/android/android-launchericon-192-192.png"
         />
         <link
-          rel="icon"
-          type="image/png"
-          sizes="16x16"
-          href="/icons/favicon-16x16.png"
+          rel="apple-touch-icon"
+          sizes="512x512"
+          href="/icons/android/android-launchericon-512-512.png"
         />
+
         <link rel="manifest" href="/manifest.json" />
         <link
           rel="mask-icon"
@@ -79,7 +86,10 @@ export default function Document() {
         />
         <meta property="og:site_name" content="Nextjs PWA App" />
         <meta property="og:url" content="/" />
-        <meta property="og:image" content="/icons/apple-touch-icon.png" />
+        <meta
+          property="og:image"
+          content="/icons/android/android-launchericon-512-512"
+        />
 
         {/* <!-- apple splash screen images -->
 <!--
